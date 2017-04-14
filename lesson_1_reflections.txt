@@ -1,0 +1,25 @@
+cd ~                          # 更改目录 directory
+mkdir version-control         # 创建 version-control 目录
+cd version-control            # 转到 version-control 目录
+mkdir reflections             # 创建 reflections（思考）目录
+cd reflections                # 转到 reflections（思考）目录
+subl lesson_1_reflections.txt # 启动 Sublime Text，并打开名为 lesson_1_reflections.
+
+pwd # 打印工作目录 - 显示你所在的目录
+ls  # 列出此目录中所含的文件
+
+-----------------
+你认为，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？
+Git更灵活，可控性更强；Google更安全，防止人为失误等；
+------------------
+何你认为一些版本控制系统（例如 Git）允许在一次提交中保存多个文件，而其他系统（例如 Google Docs）单独对待每个文件？
+Git的方法更适用用编程的多文件关联的特性；
+------------------
+如何使用命令 git log 和 git diff 来查看文件的历史记录？
+确保git bash工作在正确的路径下
+------------------
+使用版本控制，如何让你更有信心进行有可能会造成破坏的更改？
+随时便捷的恢复之前的各个版本进行bug审查
+------------------
+现在你已设置了工作空间，你想尝试使用 Git 来做些什么？
+保存并迭代HTML/CSS代码
