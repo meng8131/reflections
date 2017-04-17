@@ -30,3 +30,6 @@ master?  What benefits does each approach have?
 
 为何你希望始终手动地拉取更改，而不是让 Git 自动与你的远程版本库保持同步？
 一个功能或逻辑开发会涉及很多中间状态的commit，Git自动同步的话会有太多的commit，而远程Git库又多是与别人共享协作的，过多的commit会混淆视听
+
+说明Fork、克隆和分支之间的不同。何时使用某种功能而不是另一种？
+Fork是GitHub在线的项目之间的克隆；克隆是remote与local之间或local与local之间的克隆；分支指某一repository的两个版本，可以是remote也可以是local；
