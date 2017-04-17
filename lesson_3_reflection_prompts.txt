@@ -27,3 +27,6 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
+
+为何你希望始终手动地拉取更改，而不是让 Git 自动与你的远程版本库保持同步？
+一个功能或逻辑开发会涉及很多中间状态的commit，Git自动同步的话会有太多的commit，而远程Git库又多是与别人共享协作的，过多的commit会混淆视听
